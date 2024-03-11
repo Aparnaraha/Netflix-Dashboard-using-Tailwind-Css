@@ -1,2 +1,23 @@
-.photo{
-    background: url(image/wallpaper.jpg);
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* color: white; */
+}
+html , body{
+  height: 100%;
+  width: 100%;
+  overflow: hidden;
+}
+
+#page1 {
+  width: 100%;
+  height: 100vh;
+  background-image: url("image/dasboard.jpg");
+}
+
+nav img{
+  height: 10vw;
+  padding: 1vw 5vw ;
+  overflow: hidden;
+}
